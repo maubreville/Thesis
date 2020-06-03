@@ -17,7 +17,8 @@ Figure 3.1: A single neuron with inputs ![\mathbf{x}](https://render.githubuserc
 
 ![Figure 3.2: Activation functions and their derivatives commonly used within neural networks. Left panel shows activation functions and their output, right panel shows derivatives.](theory/activationfunctions_original.svg)
 ![Figure 3.2: Activation functions and their derivatives commonly used within neural networks. Left panel shows activation functions and their output, right panel shows derivatives.](theory/activationfunctions_derivative.svg)
-Activation functions and their derivatives commonly used within neural networks. Left panel shows activation functions and their output, right panel shows derivatives.
+
+Figure 3.2: Activation functions and their derivatives commonly used within neural networks. Left panel shows activation functions and their output, right panel shows derivatives.
 
 <object data="theory/PatternRecognition.pdf" type="application/pdf" width="700px" height="700px"> </object>
 ![Figure 1: Pattern recognition pipeline, showcasing the difference between traditional machine learning and deep learning.](theory/PatternRecognition.pdf)
