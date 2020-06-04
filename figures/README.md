@@ -354,3 +354,38 @@ Figure 8.6: Process of scanning of whole slide images. a: Glass slide with selec
 
 Figure 8.7: WSI file pyramid structure.
 
+## Annotation of Whole Slide Images
+![Figure 9.1](WSIAnno/Annotated_HPFs.svg)
+
+Figure 9.1: Number of annotated high power fields (HPFs) per patient in publicly available data sets.
+
+![Figure 9.2](WSIAnno/QuPath.png)
+
+Figure 9.2: WSI annotation using QuPath. Annotations set using the brush tool (green annotation) and the point list tool (yellow annotation).
+
+![Figure 9.3](WSIAnno/ScreeningPipeline_red.svg)
+
+Figure 9.3: SlideRunner guided screening pipeline
+
+![Figure 9.4](WSIAnno/PluginInterface.svg)
+
+Figure 9.4: Overview of SlideRunner's plug-in interface.
+
+![Figure 9.5a](WSIAnno/plugin_coloroverlay.png)
+![Figure 9.5b](WSIAnno/plugin_annos.png)
+![Figure 9.5c](WSIAnno/plugin_rgbimage.png)
+
+Figure 9.5: Operation modes for plug-ins, differing in the objects they feed to the main software.
+
+![Figure 9.6](WSIAnno/SlideRunner_UML.svg)
+
+Figure 9.6: SlideRunner database model.
+
+![Figure 10.1](Dataset/Annotation.svg)
+
+Figure 10.1: Dataset creation approaches for the manually expert-labeled (MEL) data set variant. Modified from Bertram et al., Sci Data 6(1):274, CC BY
+
+![Figure 10.2](Dataset/AugmentedAnnotation-Schrott.svg)
+
+Figure 10.2: CNN-aided division of the ambiguous class into hard examples, true mitotic figures and other cells resulting in the hard-example augmented expert labeled (HEAEL) dataset variant, from Bertram et al., Sci Data 6(1):274, CC BY
+
