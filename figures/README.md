@@ -428,5 +428,39 @@ Figure 10.9: Ablation study on the ODAEL data set. Left panel shows reduction of
 
 Figure 10.10: Example of a single tumor case comparing ground truth and detections on a 10HPF-ablated data set and the full data set. The pipeline trained on the ablated data set introduces a large number of false positives (bottom right panel).
 
+## Field of Interest Proposal for Augmented Mitotic Cell Count
+
+![Figure 11.1](FoI_Detection/Overview_unet_wide.svg)
+
+Figure 11.1: Overview of the initial approach using segmentation maps. The upper path will derive a mask for mitotic figures, followed by a moving average (MA) filter. Lower path selects only valid regions.
+
+![Figure 11.2](FoI_Detection/CNNOverview_unet.svg)
+
+Figure 11.2: Segmentation of mitotic figures with U-NET.
+
+![Figure 11.3a](FoI_Detection/2636-overall_unet.png)
+![Figure 11.3b](FoI_Detection/bxplt_regionproposal_unet.svg)
+
+Figure 11.3: Results of the segmentation approach on FOI prediction. Left panel: Relation between ground-truth MC and estimated MC. Right panel: MC ground truth distribution on test slides, green line indicates ground-truth MC for proposed position.
+
+![Figure 11.4](FoI_Detection/networks.svg)
+
+Figure 11.4: Overview of the different mitotic figure detection approaches used for field of interest prediction.
+
+![Figure 11.5](FoI_Detection/Region_results.svg)
+
+Figure 11.5: Comparison of human experts with the five algorithmic approaches on the task of finding the area of highest mitotic count (MC). The selected positions are represented by the ground-truth MC of the data set at these positions. Experts were five board certified veterinary pathologists (BCVP) and three veterinary pathologists in training (VPIT).
+
+![Figure 11.6a](FoI_Detection/countMap_case2_2e61.svg)
+![Figure 11.6b](FoI_Detection/countMap_552c_case12.svg)
+![Figure 11.6c](FoI_Detection/circleMap_case15_8c9f9618fcaca747b7c3.svs.svg)
+
+Figure 11.6: Examples of ground-truth mitotic figures (green dots) and areas selected by the experts and the algorithms.
+
+![Figure 11.7](FoI_Detection/ablation2.svg)
+
+Figure 11.7: Ablation study on the data set (case 14) for field of interest selection. Left panel shows ground truth, top row shows detection results and area selection on ablated and full data set. Green dots show mitotic figures and detected mitotic figures.
+
+
 
 
