@@ -118,12 +118,12 @@ Figure 4.4: Image histograms and dynamic range compression results.
 
 Figure 4.5: Comparision between CLE images and H&E-stained histopathology images showing SCC and healthy epithelium. Note that histopathology images are commonly taken perpendicular to the direction of CLE images. Thanks to Christof Bertram for providing the histopathology images.
 
-![Figure 4.6a: CLE image of healthy mucosa of squamous cells - epithelial structure](CLE/interpretation/cellstructure)
-![Figure 4.6b: CLE image of healthy mucosa of squamous cells - mucosa with vessels](CLE/interpretation/healthy2)
+![Figure 4.6a: CLE image of healthy mucosa of squamous cells - epithelial structure](CLE/interpretation/cellstructure.svg)
+![Figure 4.6b: CLE image of healthy mucosa of squamous cells - mucosa with vessels](CLE/interpretation/healthy2.svg)
 
 Figure 4.6: Healthy mucosa of squamous cells. The left panel image is from the oral cavity while the right panel is from a vocal fold examination.
 
-![Figure 4.7a: epithelial structure](CLE/interpretation/vessellong.svg)
+![Figure 4.7a: epithelial structure](CLE/interpretation/vessel_long.svg)
 ![Figure 4.7b: vessels, longitudinal cross-section](CLE/interpretation/vessel2.svg)
 Figure 4.7: Healthy mucosa of squamous cells (vocal folds), both with vessels containing erythrocytes.
 
