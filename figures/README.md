@@ -156,6 +156,29 @@ Figure 5.9: Noise artifacts in CLE images (a: partially missing contact, b: weak
 
 Figure 5.10: Recording sites for our oral cavity data set. Percentages reflect share of images from recorded side in final data set. Image based on Aubreville et al. (Sci Rep 7(1): 11979) (CC BY), with data from Table 1 of the same publication.
 
+![Figure 6.1a](MotionArtifacts/elongated_vc_carc_89800.jpg)
+![Figure 6.1b](MotionArtifacts/carc_elongated_oc_68240.jpg)
+![Figure 6.1c](MotionArtifacts/elongated_90697.jpg)
+![Figure 6.1d](MotionArtifacts/mild_66615.jpg)
+
+Figure 6.1: Stretched cells due to motion artifacts for all conditions and data sets (a: carcinoma VC, b: carcinoma OC, c: healthy mucosa VC, c: healthy mucosa OC)
+
+![Figure 6.2a](MotionArtifacts/carc_91390_streaky)
+![Figure 6.2b](MotionArtifacts/carc_91390_streaky.jpg)
+![Figure 6.2c](MotionArtifacts/severe_68199_carc_oc.jpg)
+![Figure 6.2d](MotionArtifacts/streaky_66560_healthy_oc.jpg)
+
+Figure 6.2: Streaky motion artifacts for all conditions and data sets. Information regarding malignancy is completely lost. (a: carcinoma VC, b: carcinoma OC, c: healthy mucosa VC, c: healthy mucosa OC)
+
+![Figure 6.3d](MotionArtifacts/compressed_VF_peca.jpg)
+![Figure 6.3d](MotionArtifacts/compressed_oc_peca.jpg)
+![Figure 6.3d](MotionArtifacts/compressedCell_VC.jpg)
+![Figure 6.3d](MotionArtifacts/compressed_OC.jpg)
+
+Figure 6.3: Compressed cell motion artifacts for all conditions and data sets.  (a: carcinoma VC, b: carcinoma OC, c: healthy mucosa VC, c: healthy mucosa OC)
+
+
+
 <object data="theory/PatternRecognition.pdf" type="application/pdf" width="700px" height="700px"> </object>
 ![Figure 1: Pattern recognition pipeline, showcasing the difference between traditional machine learning and deep learning.](theory/PatternRecognition.pdf)
 
