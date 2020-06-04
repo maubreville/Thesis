@@ -105,18 +105,21 @@ Figure 4.1: Upper layers of the skin with squamous cell carcinoma (SCC), a tumor
 Figure 4.2: Occurrence of oral squamous cell carcinoma, based on an image published in Aubreville et al. (2017): Automatic Classification of Cancerous Tissue in Laserendomicroscopy Images of the Oral Cavity using Deep Learning (Scientific Reports) (CC BY) visualization using data from Ariyoshi2008 et al.: Epidemiological study of malignant tumors in the oral and maxillofacial region: Survey of member institutions of the Japanese Society of Oral and Maxillofacial Surgeons, 2002 (International Journal of Clinical Oncology, 2008)
 
 ![Figure 5.1: Confocal laser endomicroscopy setup](CLE/intro/cle.svg)
+
 Figure 5.1: Confocal laser endomicroscopy (\gls{CLE}) setup. A laser beam is generated and routed through multiple (partially moving) mirrors towards the tissue. There, incoming light is transformed by fluorescence into a different wavelength, which is then focused onto a photodetector. From: Maier et al., Medical Imaging Systems: An Introductory Guide (p. 79), 2018, CC BY
 
 ![Figure 5.2: CLE dynamic range compression: healthy mucosa, 8 bit](CLE/preproc/epithel_compressed.png)
 ![Figure 5.2: CLE dynamic range compression: input and compressed output histograms](CLE/preproc/epithel_hist.svg)
 ![Figure 5.2: CLE dynamic range compression: SCC, 8 bit](CLE/preproc/carc_compressed.png)
 ![Figure 5.2: CLE dynamic range compression: input and compressed output histograms](CLE/preproc/carc_hist.svg)
+
 Figure 5.2: Image histograms and dynamic range compression results.
 
 ![Figure 5.3a: correlation, clear case](CLE/preproc/corr2.svg)
 ![Figure 5.3b: correlation, hard case](CLE/preproc/corr87.svg)
 ![Figure 5.3c: dot product, easy case](CLE/preproc/dotproduct2.svg)
 ![Figure 5.3d: dot product, hard case](CLE/preproc/dotproduct87.svg)
+
 Figure 5.3: Correlation vectors are not showing clear maxima in all cases, but the length-adjusted product does. The blue line represents the correlation to the first frame, the green line that to the last frame.
 
 ![Figure 5.4: Comparision between CLE images and histopathology images - SCC](SCC/SCC_CLE_Histo_SCC.svg)
