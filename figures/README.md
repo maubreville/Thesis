@@ -275,7 +275,7 @@ Figure 7.8: ROC curves for detection of malignancies in the respective data sets
 
 Figure 7.9: Accuracy for all patients of the respective data sets, when trained on same or other data set.
 
-![Figure 7.10a](SCC/patient7_gutartig_92350_p_p661_vc_lopo.svg)
+![Figure 7.10a](SCC/patient7_gutartig_92350_p_p661_vc_lopo.jpg)
 ![Figure 7.10b](SCC/patient7_gutartig_92347_p_0436_ocvc.jpg)
 ![Figure 7.10c](SCC/patient7_gutartig_92347_p_0682_vc_lopo.jpg)
 ![Figure 7.10d](SCC/patient7_gutartig_92350_p_296_ocvc.jpg)
@@ -321,6 +321,29 @@ Figure 7.17: Individual patient accuracy results on the VC data set.
 
 Figure 8.1: Illustration of focus and defocused images in the thin lens model. Adapted from Mualla, Aubreville and Maier: Microscopy (in: Medical Imaging Systems, p.69-90, CC BY)
 
-<object data="theory/PatternRecognition.pdf" type="application/pdf" width="700px" height="700px"> </object>
-![Figure 1: Pattern recognition pipeline, showcasing the difference between traditional machine learning and deep learning.](theory/PatternRecognition.pdf)
 
+![Figure 8.2](Microscopy/microscope.svg)
+
+Figure 8.2: Microscope lens setup. Adapted from Mualla, Aubreville and Maier: Microscopy (in: Medical Imaging Systems, p.69-90, CC BY)
+
+![Figure 8.3](Microscopy/processingsteps.svg)
+
+Figure 8.3: The steps of tissue processing for microscopy slides.
+
+![Figure 8.4a](Microscopy/hem_2.png)
+![Figure 8.4b](Microscopy/eos_2.png)
+![Figure 8.4c](Microscopy/h_e_2.png)
+
+Figure 8.4: Hematoxylin-eosin stain components (a: hematoxylin, b: eosin, c: H&E) (reconstruction using Macenko's method for stain separation)
+
+![Figure 8.5](Microscopy/)
+
+Figure 8.5:
+
+![Figure 8.6](Microscopy/)
+
+Figure 8.6:
+
+![Figure 8.7](Microscopy/)
+
+Figure 8.7:
