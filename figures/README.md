@@ -104,29 +104,54 @@ Figure 4.1: Upper layers of the skin with squamous cell carcinoma (SCC), a tumor
 
 Figure 4.2: Occurrence of oral squamous cell carcinoma, based on an image published in Aubreville et al. (2017): Automatic Classification of Cancerous Tissue in Laserendomicroscopy Images of the Oral Cavity using Deep Learning (Scientific Reports) (CC BY) visualization using data from Ariyoshi2008 et al.: Epidemiological study of malignant tumors in the oral and maxillofacial region: Survey of member institutions of the Japanese Society of Oral and Maxillofacial Surgeons, 2002 (International Journal of Clinical Oncology, 2008)
 
-![Figure 4.3: Confocal laser endomicroscopy setup](CLE/intro/cle.svg)
-Figure 4.3: Confocal laser endomicroscopy (\gls{CLE}) setup. A laser beam is generated and routed through multiple (partially moving) mirrors towards the tissue. There, incoming light is transformed by fluorescence into a different wavelength, which is then focused onto a photodetector. From: Maier et al., Medical Imaging Systems: An Introductory Guide (p. 79), 2018, CC BY
+![Figure 5.1: Confocal laser endomicroscopy setup](CLE/intro/cle.svg)
+Figure 5.1: Confocal laser endomicroscopy (\gls{CLE}) setup. A laser beam is generated and routed through multiple (partially moving) mirrors towards the tissue. There, incoming light is transformed by fluorescence into a different wavelength, which is then focused onto a photodetector. From: Maier et al., Medical Imaging Systems: An Introductory Guide (p. 79), 2018, CC BY
 
-![Figure 4.4: CLE dynamic range compression: healthy mucosa, 8 bit](CLE/preproc/epithel_compressed.png)
-![Figure 4.4: CLE dynamic range compression: input and compressed output histograms](CLE/preproc/epithel_hist.svg)
-![Figure 4.4: CLE dynamic range compression: SCC, 8 bit](CLE/preproc/carc_compressed.png)
-![Figure 4.4: CLE dynamic range compression: input and compressed output histograms](CLE/preproc/carc_hist.svg)
-Figure 4.4: Image histograms and dynamic range compression results.
+![Figure 5.2: CLE dynamic range compression: healthy mucosa, 8 bit](CLE/preproc/epithel_compressed.png)
+![Figure 5.2: CLE dynamic range compression: input and compressed output histograms](CLE/preproc/epithel_hist.svg)
+![Figure 5.2: CLE dynamic range compression: SCC, 8 bit](CLE/preproc/carc_compressed.png)
+![Figure 5.2: CLE dynamic range compression: input and compressed output histograms](CLE/preproc/carc_hist.svg)
+Figure 5.2: Image histograms and dynamic range compression results.
 
-![Figure 4.5: Comparision between CLE images and histopathology images - SCC](SCC/SCC_CLE_Histo_SCC.svg)
-![Figure 4.5: Comparision between CLE images and histopathology images - healthy epithelium](SCC/SCC_CLE_Histo_healthy.svg)
+![Figure 5.3a: correlation, clear case](CLE/preproc/corr2.svg)
+![Figure 5.3b: correlation, hard case](CLE/preproc/corr87.svg)
+![Figure 5.3c: dot product, easy case](CLE/preproc/dotproduct2.svg)
+![Figure 5.3d: dot product, hard case](CLE/preproc/dotproduct87.svg)
+Figure 5.3: Correlation vectors are not showing clear maxima in all cases, but the length-adjusted product does. The blue line represents the correlation to the first frame, the green line that to the last frame.
 
-Figure 4.5: Comparision between CLE images and H&E-stained histopathology images showing SCC and healthy epithelium. Note that histopathology images are commonly taken perpendicular to the direction of CLE images. Thanks to Christof Bertram for providing the histopathology images.
+![Figure 5.4: Comparision between CLE images and histopathology images - SCC](SCC/SCC_CLE_Histo_SCC.svg)
+![Figure 5.4: Comparision between CLE images and histopathology images - healthy epithelium](SCC/SCC_CLE_Histo_healthy.svg)
 
-![Figure 4.6a: CLE image of healthy mucosa of squamous cells - epithelial structure](CLE/interpretation/cellstructure.svg)
-![Figure 4.6b: CLE image of healthy mucosa of squamous cells - mucosa with vessels](CLE/interpretation/healthy2.svg)
+Figure 5.4: Comparision between CLE images and H&E-stained histopathology images showing SCC and healthy epithelium. Note that histopathology images are commonly taken perpendicular to the direction of CLE images. Thanks to Christof Bertram for providing the histopathology images.
 
-Figure 4.6: Healthy mucosa of squamous cells. The left panel image is from the oral cavity while the right panel is from a vocal fold examination.
+![Figure 5.5a: CLE image of healthy mucosa of squamous cells - epithelial structure](CLE/interpretation/cellstructure.svg)
+![Figure 5.5b: CLE image of healthy mucosa of squamous cells - mucosa with vessels](CLE/interpretation/healthy2.svg)
 
-![Figure 4.7a: epithelial structure](CLE/interpretation/vessel_long.svg)
-![Figure 4.7b: vessels, longitudinal cross-section](CLE/interpretation/vessel2.svg)
-Figure 4.7: Healthy mucosa of squamous cells (vocal folds), both with vessels containing erythrocytes.
+Figure 5.5: Healthy mucosa of squamous cells. The left panel image is from the oral cavity while the right panel is from a vocal fold examination.
 
+![Figure 5.6a: epithelial structure](CLE/interpretation/vessel_long.svg)
+![Figure 5.6b: vessels, longitudinal cross-section](CLE/interpretation/vessel2.svg)
+
+Figure 5.6: Healthy mucosa of squamous cells (vocal folds), both with vessels containing erythrocytes.
+
+![Figure 5.7a: Common optical artifacts in CLE images - particle on lens](CLE/interpretation/optical.svg)
+![Figure 5.7b: Common optical artifacts in CLE images - mucus](CLE/interpretation/mucus.png)
+
+Figure 5.7: Common optical artifacts in CLE images (a: particle on lens, b: mucus)
+
+![Figure 5.8: Motion artifacts in CLE images - partial](CLE/interpretation/motion.png)
+![Figure 5.8: Motion artifacts in CLE images - full](CLE/interpretation/fullmotion.png)
+
+Figure 5.8: Motion artifacts in CLE images (a: partial, b: full)
+
+![Figure 5.9: Noise artifacts in CLE images - partially missing contact](CLE/interpretation/noise_partial.svg)
+![Figure 5.9: Noise artifacts in CLE images - weak signal](CLE/interpretation/noisy.png)
+
+Figure 5.9: Noise artifacts in CLE images (a: partially missing contact, b: weak signal)
+
+![Figure 5.10: Recording sites for our oral cavity data set](SCC/regions_percentages)
+
+Figure 5.10: Recording sites for our oral cavity data set. Percentages reflect share of images from recorded side in final data set. Image based on Aubreville et al. (Sci Rep 7(1): 11979) (CC BY), with data from Table 1 of the same publication.
 
 <object data="theory/PatternRecognition.pdf" type="application/pdf" width="700px" height="700px"> </object>
 ![Figure 1: Pattern recognition pipeline, showcasing the difference between traditional machine learning and deep learning.](theory/PatternRecognition.pdf)
