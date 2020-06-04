@@ -38,43 +38,56 @@ Figure 3.5: Layered backpropagation]{Layered backpropagation. Adapted from Maier
 
 ![Loss functions commonly used in deep learning for classification and regression. Classification losses](theory/cla_losses.svg)
 ![Loss functions commonly used in deep learning for classification and regression. Regression losses](theory/reg_losses.svg)
+
 Figure 3.6: Loss functions commonly used in deep learning for classification and regression.
 
 ![Figure 3.7: Segmentation loss functions and the definition of true positive, false positive and false negative.](theory/IOUsvg.svg)
+
 Figure 3.7: Segmentation loss functions and the definition of true positive, false positive and false negative.
 
 ![Figure 3.8: 2D convolution on the example of a small image of a mitotic figure. The convolution operation is sliding a multiplicative kernel over the complete image.](theory/conv2d.svg)
+
 Figure 3.8: 2D convolution on the example of a small image of a mitotic figure. The convolution operation is sliding a multiplicative kernel over the complete image.
 
 ![Figure 3.9: Inception module](theory/Inception.svg)
+
 Figure 3.9: Inception module (redrawn from: Szegedy et al.: Going deeper with convolutions (CVPR 2015))
 
 ![Figure 3.10: Residual layer](theory/ResidualLayer.svg)
+
 Figure 3.10: Residual layer (redrawn from: He et al.: Deep Residual Learning for Image Recognition (CVPR 2016))
 
 ![Figure 3.11: Comparing Yann LeCun's LeNet-5 architecture from 1989 to Krizhevsky's AlexNet architecture from 2012](theory/AlexNet.svg)
+
 Figure 3.11: Comparing Yann LeCun's LeNet-5 architecture from 1989 to Krizhevsky's AlexNet architecture from 2012
 
 ![Figure 3.12: Evolution of R-CNN approaches](theory/RCNNoverview.svg)
+
 Figure 3.12: Evolution of R-CNN approaches: R-CNN, Fast R-CNN and Faster R-CNN.
 
 ![Figure 3.13: Anchor boxes of two sizes and three aspect ratios, visualized on a mitotic figure (blue bounding box). Red anchor is only match (IOU$>0.5$).](theory/anchorbox.svg)
+
 Figure 3.13: Anchor boxes of two sizes and three aspect ratios, visualized on a mitotic figure (blue bounding box). Red anchor is only match (IOU>0.5).
 
 ![Figure 3.14: Comparison of encoder-decoder structures in auto-encoder, FCN, U-Net and Feature Pyramid Network.](theory/Unet_FPN_AutoEnc.svg)
+
 Figure 3.14: Comparison of encoder-decoder structures in auto-encoder, FCN, U-Net and Feature Pyramid Network.
 
 ![Figure 3.15: Basic structure of Generative Adversarial Networks](theory/GAN.svg)
+
 Figure 3.15: Basic structure of Generative Adversarial Networks
 
 ![Figure 3.16: Basic structure of CycleGAN](theory/CycleGAN.svg)
-Figure 3.16: Cycle consistency loss for target domain images ![L_{cyc}(X_T, G_S(G_T(X_T))](https://render.githubusercontent.com/render/math?math=L_%7Bcyc%7D(X_T%2C%20G_S(G_T(X_T))) and adversarial loss for source domain ![L_{adv}(X_S, D_S(X_T))](https://render.githubusercontent.com/render/math?math=L_%7Badv%7D(X_S%2C%20D_S(X_T))) are not shown due to symmetry.
+
+Figure 3.16: Cycle consistency loss for target domain images ![L_{cyc}(X_T, G_S(G_T(X_T))](https://render.githubusercontent.com/render/math?math=L_%7Bcyc%7D(X_T%2C%20G_S(G_T(X_T)) and adversarial loss for source domain ![L_{adv}(X_S, D_S(X_T))](https://render.githubusercontent.com/render/math?math=L_%7Badv%7D(X_S%2C%20D_S(X_T))) are not shown due to symmetry.
 
 
 ![Figure 3.17: Class activation maps](theory/CAM.svg)
+
 Figure 3.17: Class Activation Maps (CAM) to visually display model attention, calculated for a ResNet-18 model pre-trained on ImageNet. Second to fourth column show bilinearly interpolated class activation maps of class ranked 1st to 3rd (as overlay to original image).
 
 ![Figure 3.18: Cell inversion when using domain-transfer of microscopy images using CycleGAN](DomainAdaptation/cyclegan_cells.svg)
+
 Figure 3.18: Cell inversion when using domain-transfer of microscopy images using CycleGAN.
 
 
