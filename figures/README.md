@@ -161,6 +161,8 @@ Figure 5.10: Recording sites for our oral cavity data set. Percentages reflect s
 ![Figure 6.1c](MotionArtifacts/elongated_90697.jpg)
 ![Figure 6.1d](MotionArtifacts/mild_66615.jpg)
 
+## Detection of Motion Artifacts
+
 Figure 6.1: Stretched cells due to motion artifacts for all conditions and data sets (a: carcinoma VC, b: carcinoma OC, c: healthy mucosa VC, c: healthy mucosa OC)
 
 ![Figure 6.2a](MotionArtifacts/carc_91390_streaky.jpg)
@@ -208,8 +210,55 @@ Figure 6.7: Visualization of the angle of maximum correlation feature in all ste
 
 
 ![Figure 6.8: Overview of the deep convolutional model used for motion artifact detection.](MotionArtifacts/MotionDetection.svg)
+
 Figure 6.8: Overview of the deep convolutional model used for motion artifact detection.
 
+![Figure 6.9: Preprocessing of CLE images to reduce impact of black borders](SCC/PreProcessing.svg)
+
+Figure 6.9: Preprocessing of CLE images to reduce impact of black borders.
+
+
+![6.10a](MotionArtifacts/ROC_Motion_Diss.svg)
+![6.10b](MotionArtifacts/compareMotion_depth_multi.svg)
+
+Figure 6.10: Evaluation of motion artifact detection with the proposed deep neural network architecture vs. conventional approaches based on the described features or combinations thereof. Right panel recreated from Aubreville et al., Deep learning-based detection of motion artifacts in probe-based confocal laser endomicroscopy images, 2019, left panel re-calculated.
+
+![Figure 6.11a](MotionArtifacts/motionDet_66560.jpg)
+![Figure 6.11b](MotionArtifacts/motionDet_70436.jpg)
+![Figure 6.11c](MotionArtifacts/motionDet_92380_compressed.jpg)
+![Figure 6.11d](MotionArtifacts/motionDet_82597_falsepos.jpg)
+
+Figure 6.11: Exemplary results of motion detection from proposed CNN architecture. Panel <b>(d)</b> shows physiologically sheared cells acquired in the vocal folds.
+
+
+## Diagnosis of Head and Neck Squamous Cell Carcinoma
+
+![Figure 7.1](SCC/ImagePatches.svg)
+
+Figure 7.1: Division of the original, resized image into overlapping patches of size 80x80. From: Aubreville et al., Sci Rep 7(1):11979, 2017, CC BY.
+
+![Figure 7.2](SCC/CNNtoolchain.svg)
+
+Figure 7.2: Patch-based classification of CLE images using a LeNet5 classifier. From: Aubreville et al., Sci Rep 7(1):11979, CC BY.
+
+
+![Figure 7.3](SCC/patchProbabilityFusion.svg)
+
+Figure 7.3: Fusion of probabilities from the patch classifier. From: Aubreville et al., Sci Rep 7(1):11979, CC BY.
+
+![Figure 7.4](SCC/CNNTFtoolchain.svg)
+
+Figure 7.4: Overview of the transfer learning approach, based on Szegedy's Inception v3, pre-trained on the ImageNet database. From: Aubreville et al., Sci Rep 7(1):11979, CC BY.
+
+![Figure 7.5a](SCC/roc.svg)
+![Figure 7.5b](SCC/rocAL.svg)
+
+Figure 7.5: Receiver Operating Characteristic (ROC) curve of cross-validation. All cross-validation runs were combined into a single result vector. Left panel shows overall results, right panel shows results only on alveolar ridge and labium.
+
+
+![Figure 7.6a](SCC/patchOutcome.svg)
+![Figure 7.6b](SCC/classOutcome.svg)
+Figure 7.6: Posterior probabilities for class <b>carcinoma</b> on patch-based approach for randomly selected single patches (a) and complete images (b). Top row shows patches/images with high likelihood for being healthy mucosa, middle row shows uncertain picks and bottom row shows high likelihood for being SCC. From Aubreville et al., Sci Rep 7(1):11979, CC BY.
 
 <object data="theory/PatternRecognition.pdf" type="application/pdf" width="700px" height="700px"> </object>
 ![Figure 1: Pattern recognition pipeline, showcasing the difference between traditional machine learning and deep learning.](theory/PatternRecognition.pdf)
