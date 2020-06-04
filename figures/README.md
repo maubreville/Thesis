@@ -336,14 +336,21 @@ Figure 8.3: The steps of tissue processing for microscopy slides.
 
 Figure 8.4: Hematoxylin-eosin stain components (a: hematoxylin, b: eosin, c: H&E) (reconstruction using Macenko's method for stain separation)
 
-![Figure 8.5](Microscopy/)
+![Figure 8.5a](Microscopy/he.jpg)
+![Figure 8.5b](Microscopy/Azan.jpg)
+![Figure 8.5c](Microscopy/ck1.jpg)
+![Figure 8.5d](Microscopy/Grocott-versilberung.jpg)
+![Figure 8.5e](Microscopy/MGG.jpg)
+![Figure 8.5f](Microscopy/turnbull.png)
 
-Figure 8.5:
+Figure 8.5: Different stains for histology and cytology. From: Mualla, Aubreville and Maier: Microscopy (in: Medical Imaging Systems, p.69-90, CC BY)
 
-![Figure 8.6](Microscopy/)
+![Figure 8.6](Microscopy/scanningarea.svg)
+![Figure 8.6](Microscopy/scanningmode.svg)
 
-Figure 8.6:
+Figure 8.6: Process of scanning of whole slide images. a: Glass slide with selected area, b: line-based vs. tile-based scanning.
 
-![Figure 8.7](Microscopy/)
+![Figure 8.7](Microscopy/Pyramid.svg)
 
-Figure 8.7:
+Figure 8.7: WSI file pyramid structure.
+
