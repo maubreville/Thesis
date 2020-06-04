@@ -381,6 +381,8 @@ Figure 9.5: Operation modes for plug-ins, differing in the objects they feed to 
 
 Figure 9.6: SlideRunner database model.
 
+## A Large Dataset of Mitotic Figures and other Cell Types in Canine Mast Cell Tumors
+
 ![Figure 10.1](Dataset/Annotation.svg)
 
 Figure 10.1: Dataset creation approaches for the manually expert-labeled (MEL) data set variant. Modified from Bertram et al., Sci Data 6(1):274, CC BY
@@ -408,7 +410,23 @@ Figure 10.6: Final consensus of disagreed labels in manually labeled data set co
 
 ![Figure 10.7a](Dataset/ImCenterPeriphery_50c50p_c91a842257ed2add5134_raw.svg)
 ![Figure 10.7b](Dataset/ImCenterPeriphery_50c50p_dd4246ab756f6479c841_raw.svg)
-![Figure 10.7c](Dataset/CenterPeripheryBoxplots)
+![Figure 10.7c](Dataset/CenterPeripheryBoxplots.svg)
 
 Figure 10.7: Comparison of mitotic count in center and periphery of the tumor. Example in *a* and *b* show threshold of inner 50% area. Blue line represents border of the tumor while red line represents outline of the inner part and darkened area represents necrotic tissue not included in the area estimation. Panel *c* shows statistical comparison for different ratios.
+
+![Figure 10.8a](Dataset/stage1_stage2_aposterioris_1024.svg)
+![Figure 10.8b](Dataset/stage1_stage2_aposterioris_1024_missed.svg)
+
+Figure 10.8: 2D Histogram of dependency between first and second stage model scores for true mitotic figures, evaluated on the train and validation set with patch size 1024.
+
+![Figure 10.9a](Dataset/AblationStudy_HPF.svg)
+![Figure 10.9b](Dataset/AblationStudy_WSI.svg)
+
+Figure 10.9: Ablation study on the ODAEL data set. Left panel shows reduction of area used in training, while right panel shows reduction of number of WSIs used in training. From Bertram et al., Sci Data 6(1):274, CC BY
+
+![Figure 10.10](Dataset/FigureAblation.svg)
+
+Figure 10.10: Example of a single tumor case comparing ground truth and detections on a 10HPF-ablated data set and the full data set. The pipeline trained on the ablated data set introduces a large number of false positives (bottom right panel).
+
+
 
