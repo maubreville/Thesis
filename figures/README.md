@@ -2,7 +2,9 @@
 
 These figures, used in my doctoral thesis, are all licensed under creative commons (CC BY 4.0) and are thus free to be used in other works (given proper referencing).
 
-## Theoretical Background: Machine Learning
+
+# Theoretical Background
+## Machine Learning
 
 ![Figure 2.1: Pattern recognition pipeline, showcasing the difference between traditional machine learning and deep learning.](theory/PatternRecognition.svg)
 Figure 2.1: Pattern recognition pipeline, showcasing the difference between traditional machine learning and deep learning.
@@ -12,7 +14,7 @@ Figure 2.1: Pattern recognition pipeline, showcasing the difference between trad
 Figure 2.2: Main machine learning tasks on the example of a microscopy image patch
 
 
-## Theoretical Background: Deep Learning
+## Deep Learning
 
 ![Figure 3.1: A single neuron](theory/neuron.svg)
 
@@ -91,5 +93,15 @@ Figure 3.17: Class Activation Maps (CAM) to visually display model attention, ca
 Figure 3.18: Cell inversion when using domain-transfer of microscopy images using CycleGAN.
 
 
+# Confocal Laser Endomicroscopy
+## Head and Neck Squamous Cell Carcinoma
+
+![Figure 4.1: Upper layers of the skin with squamous cell carcinoma (SCC), a tumor developing from the upper layers of the epithelium.](SCC/SCC.svg)
+Figure 4.1: Upper layers of the skin with squamous cell carcinoma (SCC), a tumor developing from the upper layers of the epithelium.
+
+![Figure 4.2: Occurrence of oral squamous cell carcinoma](SCC/regions_SCC.svg)
+Occurrence of oral squamous cell carcinoma, based on an image published in Aubreville et al. (2017): Automatic Classification of Cancerous Tissue in Laserendomicroscopy Images of the Oral Cavity using Deep Learning (Scientific Reports) (CC BY) visualization using data from Ariyoshi2008 et al.: Epidemiological study of malignant tumors in the oral and maxillofacial region: Survey of member institutions of the Japanese Society of Oral and Maxillofacial Surgeons, 2002 (International Journal of Clinical Oncology, 2008)
+
 <object data="theory/PatternRecognition.pdf" type="application/pdf" width="700px" height="700px"> </object>
 ![Figure 1: Pattern recognition pipeline, showcasing the difference between traditional machine learning and deep learning.](theory/PatternRecognition.pdf)
+
