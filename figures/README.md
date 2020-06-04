@@ -461,6 +461,42 @@ Figure 11.6: Examples of ground-truth mitotic figures (green dots) and areas sel
 
 Figure 11.7: Ablation study on the data set (case 14) for field of interest selection. Left panel shows ground truth, top row shows detection results and area selection on ablated and full data set. Green dots show mitotic figures and detected mitotic figures.
 
+## Multi-Domain Application and Domain Adaptation of Models
 
+![Figure 12.1a](DomainAdaptation/mammary_carcinoma_2243.png)
+![Figure 12.1b](DomainAdaptation/meningioma_n254.png)
+![Figure 12.1c](DomainAdaptation/mastcelltumor_fff2.png)
+
+Figure 12.1: Patches extracted from maximum magnification (400x) of all three novel data sets. Green circles indicate mitotic figures.
+
+![Figure 12.2](DomainAdaptation/TSNE_withImages_allClasses_pixeled.svg)
+
+Figure 12.2: Overview of all four data sets. CCMCT represents the canine cutaneous mast cell tumor data set, CMC the canine mammary carcinoma data set, HUMMEN the human meningioma dataset and MITOS 2014 the publicly available human mammary carcinoma data set.
+
+![Figure 12.3](DomainAdaptation/DA.svg)
+
+Figure 12.3: Proposed model architecture, using a pre-trained ResNet-18 stem and two heads with two gradient reversal layers.
+
+![Figure 12.4](DomainAdaptation/Results_acc.svg)
+
+Figure 12.4: Box whisker plots of the cell label classification accuracy in 5 runs of unsupervised domain adaptation.
+
+![Figure 12.5a](DomainAdaptation/CMC_MITOS2014_run2_06_3rd_training_DA_tSNE_small.svg)
+![Figure 12.5b](DomainAdaptation/CCMCT_HUMMEN_run1_06_3rd_training_DA_tSNE_small.svg)
+![Figure 12.5c](DomainAdaptation/CMC_MITOS2014_run2_09_3rd_training_DA_tSNE_small.svg)
+![Figure 12.5d](DomainAdaptation/CCMCT_HUMMEN_run1_09_3rd_training_DA_tSNE_small.svg)
+![Figure 12.5e](DomainAdaptation/CCMCT_CMC_run2_09_3rd_training_DA_tSNE_small.svg)
+![Figure 12.5f](DomainAdaptation/CCMCT_CMC_1_09_3rd_training_DA_tSNE_small.svg)
+
+Figure 12.5: Domain adaptation of mitotic figure vs. mitotic figure look-alikes (t-SNE plot). The top row in each subplot shows the representation of the main feature vector after the network stem whereas the second row shows the representation of the feature vector within the label classifier.
+
+![Figure 12.6](DomainAdaptation/DomainPrediction.svg)
+
+Figure 12.6: Domain prediction for model selection. After estimating the valid tissue parts, samples are drawn randomly and classified using a ResNet-18-based classifier. The domain is determined by majority vote of the predicted domains from the individual patches.
+
+![Figure 12.7a](DomainAdaptation/GradCAM.svg)
+![Figure 12.7b](DomainAdaptation/avgnumber_slidesneeded.svg)
+
+Figure 12.7: Domain prediction on the test set. Left panel shows Grad-CAM for some example images. Right panel shows average number of patches required for correct domain prediction on the tumor cases of the resp. test sets of both data sets.
 
 
