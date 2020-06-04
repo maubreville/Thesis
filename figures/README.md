@@ -113,6 +113,9 @@ Figure 4.3: Confocal laser endomicroscopy (\gls{CLE}) setup. A laser beam is gen
 ![Figure 4.4: CLE dynamic range compression: input and compressed output histograms](CLE/preproc/carc_hist.svg)
 Figure 4.4: Image histograms and dynamic range compression results.
 
+![Figure 4.5: Comparision between CLE images and histopathology images - SCC](SCC/SCC_CLE_Histo_SCC.svg)
+![Figure 4.5: Comparision between CLE images and histopathology images - healthy epithelium](SCC/SCC_CLE_Histo_healthy.svg)
+Figure 4.5: Comparision between CLE images and H&E-stained histopathology images showing SCC and healthy epithelium. Note that histopathology images are commonly taken perpendicular to the direction of CLE images. Thanks to Christof Bertram for providing the histopathology images.
 
 <object data="theory/PatternRecognition.pdf" type="application/pdf" width="700px" height="700px"> </object>
 ![Figure 1: Pattern recognition pipeline, showcasing the difference between traditional machine learning and deep learning.](theory/PatternRecognition.pdf)
