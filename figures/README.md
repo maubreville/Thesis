@@ -389,3 +389,26 @@ Figure 10.1: Dataset creation approaches for the manually expert-labeled (MEL) d
 
 Figure 10.2: CNN-aided division of the ambiguous class into hard examples, true mitotic figures and other cells resulting in the hard-example augmented expert labeled (HEAEL) dataset variant, from Bertram et al., Sci Data 6(1):274, CC BY
 
+![Figure 10.3](Dataset/AugmentedMissingCandidates.svg)
+
+Figure 10.3: Algorithm-aided identification of potentially missed mitotic cells, resulting in the object-detection augmented expert labeled (ODAEL) dataset variant. From Bertram et al., Sci Data 6(1):274, CC BY
+
+![Figure 10.4](Dataset/Missed.svg)
+
+Figure 10.4: Count of additional mitotic figures, identified by the dual-stage object detection pipeline, and assessed by both experts.
+
+![Figure 10.5](Dataset/ConsistencyCheckPipeline.svg)
+
+Figure 10.5: Dataset consistency check pipeline
+
+![Figure 10.6](Dataset/disagreed_consensus_expert1.svg)
+![Figure 10.6](Dataset/disagreed_consensus_expert2.svg)
+
+Figure 10.6: Final consensus of disagreed labels in manually labeled data set compared to individual expert opinion from first (left panel) and second (right panel) expert.
+
+![Figure 10.7a](Dataset/ImCenterPeriphery_50c50p_c91a842257ed2add5134_raw.svg)
+![Figure 10.7b](Dataset/ImCenterPeriphery_50c50p_dd4246ab756f6479c841_raw.svg)
+![Figure 10.7c](Dataset/CenterPeripheryBoxplots)
+
+Figure 10.7: Comparison of mitotic count in center and periphery of the tumor. Example in *a* and *b* show threshold of inner 50% area. Blue line represents border of the tumor while red line represents outline of the inner part and darkened area represents necrotic tissue not included in the area estimation. Panel *c* shows statistical comparison for different ratios.
+
