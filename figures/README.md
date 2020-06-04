@@ -163,7 +163,7 @@ Figure 5.10: Recording sites for our oral cavity data set. Percentages reflect s
 
 Figure 6.1: Stretched cells due to motion artifacts for all conditions and data sets (a: carcinoma VC, b: carcinoma OC, c: healthy mucosa VC, c: healthy mucosa OC)
 
-![Figure 6.2a](MotionArtifacts/carc_91390_streaky)
+![Figure 6.2a](MotionArtifacts/carc_91390_streaky.jpg)
 ![Figure 6.2b](MotionArtifacts/carc_91390_streaky.jpg)
 ![Figure 6.2c](MotionArtifacts/severe_68199_carc_oc.jpg)
 ![Figure 6.2d](MotionArtifacts/streaky_66560_healthy_oc.jpg)
@@ -177,6 +177,38 @@ Figure 6.2: Streaky motion artifacts for all conditions and data sets. Informati
 
 Figure 6.3: Compressed cell motion artifacts for all conditions and data sets.  (a: carcinoma VC, b: carcinoma OC, c: healthy mucosa VC, c: healthy mucosa OC)
 
+![Figure 6.4a](MotionArtifacts/motionProfile37.jpg)
+![Figure 6.4b](MotionArtifacts/motionProfile38.jpg)
+![Figure 6.4c](MotionArtifacts/motionProfile39.jpg)
+![Figure 6.4d](MotionArtifacts/coveredImage37.jpg)
+![Figure 6.4e](MotionArtifacts/coveredImage38.jpg)
+![Figure 6.4f](MotionArtifacts/coveredImage39.jpg)
+![Figure 6.4g](MotionArtifacts/fakeMotion37.jpg)
+![Figure 6.4h](MotionArtifacts/fakeMotion38.jpg)
+![Figure 6.4i](MotionArtifacts/fakeMotion39.jpg)
+![Figure 6.4j](MotionArtifacts/original37.jpg)
+![Figure 6.4k](MotionArtifacts/original38.jpg)
+![Figure 6.4l](MotionArtifacts/original39.jpg)
+
+Figure 6.4: Simulation of motion artifact generation.
+
+
+![Figure 6.6: Visualization of the angle of maximum correlation feature](MotionArtifacts/corrAngle.svg)
+
+Figure 6.6: Visualization of the angle of maximum correlation feature]{Visualization of the angle of maximum correlation feature. Left column shows streaky motion artifact while right column shows an example from healthy epithelium without artifacts.
+
+![Figure 6.7a](MotionArtifacts/image1.png)
+![Figure 6.7b](MotionArtifacts/image2.png)
+![Figure 6.7c: ](MotionArtifacts/coeffMatrix.svg)
+![Figure 6.7d: ](MotionArtifacts/coeffMatrix2.svg)
+![Figure 6.7e: ](MotionArtifacts/corrAngleFeature_rad.svg)
+![Figure 6.7f: ](MotionArtifacts/corrAngleFeature2_rad.svg)
+
+Figure 6.7: Visualization of the angle of maximum correlation feature in all steps from real image patches.
+
+
+![Figure 6.8: Overview of the deep convolutional model used for motion artifact detection.](MotionArtifacts/MotionDetection.svg)
+Figure 6.8: Overview of the deep convolutional model used for motion artifact detection.
 
 
 <object data="theory/PatternRecognition.pdf" type="application/pdf" width="700px" height="700px"> </object>
