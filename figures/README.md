@@ -152,7 +152,7 @@ Figure 5.8: Motion artifacts in CLE images (a: partial, b: full)
 
 Figure 5.9: Noise artifacts in CLE images (a: partially missing contact, b: weak signal)
 
-![Figure 5.10: Recording sites for our oral cavity data set](SCC/regions_percentages)
+![Figure 5.10: Recording sites for our oral cavity data set](SCC/regions_percentages.svg)
 
 Figure 5.10: Recording sites for our oral cavity data set. Percentages reflect share of images from recorded side in final data set. Image based on Aubreville et al. (Sci Rep 7(1): 11979) (CC BY), with data from Table 1 of the same publication.
 
