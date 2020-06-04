@@ -79,7 +79,7 @@ Figure 3.15: Basic structure of Generative Adversarial Networks
 
 ![Figure 3.16: Basic structure of CycleGAN](theory/CycleGAN.svg)
 
-Figure 3.16: Cycle consistency loss for target domain images ![L_{cyc}(X_T, G_S(G_T(X_T))](https://render.githubusercontent.com/render/math?math=L_%7Bcyc%7D(X_T%2C%20G_S(G_T(X_T)) and adversarial loss for source domain ![L_{adv}(X_S, D_S(X_T))](https://render.githubusercontent.com/render/math?math=L_%7Badv%7D(X_S%2C%20D_S(X_T))) are not shown due to symmetry.
+Figure 3.16: Cycle consistency loss for target domain images ![L_{cyc}(X_T, G_S(G_T(X_T)](https://render.githubusercontent.com/render/math?math=L_%7Bcyc%7D(X_T%2C%20G_S(G_T(X_T)) and adversarial loss for source domain ![L_{adv}(X_S, D_S(X_T))](https://render.githubusercontent.com/render/math?math=L_%7Badv%7D(X_S%2C%20D_S(X_T))) are not shown due to symmetry.
 
 
 ![Figure 3.17: Class activation maps](theory/CAM.svg)
