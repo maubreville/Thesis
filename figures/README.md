@@ -258,7 +258,68 @@ Figure 7.5: Receiver Operating Characteristic (ROC) curve of cross-validation. A
 
 ![Figure 7.6a](SCC/patchOutcome.svg)
 ![Figure 7.6b](SCC/classOutcome.svg)
+
 Figure 7.6: Posterior probabilities for class <b>carcinoma</b> on patch-based approach for randomly selected single patches (a) and complete images (b). Top row shows patches/images with high likelihood for being healthy mucosa, middle row shows uncertain picks and bottom row shows high likelihood for being SCC. From Aubreville et al., Sci Rep 7(1):11979, CC BY.
+
+![Figure 7.7](SCC/sameDataset.svg)
+
+Figure 7.7: ROC curve of the application of the patch-based probability fusion method on same data set, using LOPO cross-validation.
+
+![Figure 7.8a](SCC/application_OC.svg)
+![Figure 7.8b](SCC/application_VC.svg)
+
+Figure 7.8: ROC curves for detection of malignancies in the respective data sets, when trained on the same data set (using LOPO cross-validation) or on a different data set.
+
+![Figure 7.9a](SCC/OC_patientview.svg)
+![Figure 7.9b](SCC/VC_patientview.svg)
+
+Figure 7.9: Accuracy for all patients of the respective data sets, when trained on same or other data set.
+
+![Figure 7.10a](SCC/patient7_gutartig_92350_p_p661_vc_lopo.svg)
+![Figure 7.10b](SCC/patient7_gutartig_92347_p_0436_ocvc.jpg)
+![Figure 7.10c](SCC/patient7_gutartig_92347_p_0682_vc_lopo.jpg)
+![Figure 7.10d](SCC/patient7_gutartig_92350_p_296_ocvc.jpg)
+
+Figure 7.10: Exemplary color-coded posterior probabilities for the class <b>carcinoma </b>for patient seven of the vocal folds data set when training was performed on the VC data set (a+c) and the combined data set (OC+VC, panels b+d). Gray indicates 0.5, deep red indicates 1.0, deep blue indicates 0.0.
+
+![Figure 7.11a](SCC/patient7oc_labium_73862_p0417_oc.jpg)
+![Figure 7.11b](SCC/patient7oc_labium_73862_p0635_ocvc.jpg)
+![Figure 7.11c](SCC/patient7oc_labium_73892_p0204_oc.jpg)
+![Figure 7.11d](SCC/patient7oc_labium_73892_p0409_ocvc.jpg)
+
+Figure 7.11: Exemplary color-coded posterior probabilities for the class <b>carcinoma</b> for patient seven of the oral cavity dataset, showing CLE images of the labium. Images show varying output for classifiers trained on the OC data set (panels a+c) as well as for the concatenated OC+VC data set (b+d). Gray indicates 0.5, deep red indicates 1.0, deep blue indicates 0.0.
+
+![Figure 7.12](SCC/median.svg)
+
+Figure 7.12: Histogram of median pixel values of images showing healthy mucosa in various anatomical regions from all 23 patients.
+
+![Figure 7.13](SCC/comparison.svg)
+
+Figure 7.13: Comparison of patch-based classification and whole image classification.
+
+![Figure 7.14](SCC/sameDataset_ResNet.svg)
+
+Figure 7.14: ROC curve for LOPO cross-validations for all data sets and the combination thereof, comparing the patch-based approach and the ResNet-based whole image classification approach.
+
+![Figure 7.15](SCC/OC_patientview_ResNet.svg)
+
+Figure 7.15: Individual patient accuracy results on the OC data set.
+
+
+![Figure 7.16](SCC/patient6_posteriors.svg)
+
+Figure 7.16: Analysis of posteriors by different models for OC patient six (top row). Bottom row shows example image of sequence 56 that was largely responsible for the difference in accuracy for the different models. Left and middle column show ResNet-based methods, visualization is representing malignancy CAM with red indicating 1.0 and blue indicating 0.0, right bottom panel shows posteriors of probability map of ppf method.
+
+![Figure 7.17](SCC/VC_patientview_ResNet.svg)
+
+Figure 7.17: Individual patient accuracy results on the VC data set.
+
+# Bright-field Microscopy
+## Introduction to Microscopy
+
+![Figure 8.1](Microscopy/thinlensmodel.svg)
+
+Figure 8.1: Illustration of focus and defocused images in the thin lens model. Adapted from Mualla, Aubreville and Maier: Microscopy (in: Medical Imaging Systems, p.69-90, CC BY)
 
 <object data="theory/PatternRecognition.pdf" type="application/pdf" width="700px" height="700px"> </object>
 ![Figure 1: Pattern recognition pipeline, showcasing the difference between traditional machine learning and deep learning.](theory/PatternRecognition.pdf)
