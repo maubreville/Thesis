@@ -104,6 +104,16 @@ Figure 4.1: Upper layers of the skin with squamous cell carcinoma (SCC), a tumor
 
 Figure 4.2: Occurrence of oral squamous cell carcinoma, based on an image published in Aubreville et al. (2017): Automatic Classification of Cancerous Tissue in Laserendomicroscopy Images of the Oral Cavity using Deep Learning (Scientific Reports) (CC BY) visualization using data from Ariyoshi2008 et al.: Epidemiological study of malignant tumors in the oral and maxillofacial region: Survey of member institutions of the Japanese Society of Oral and Maxillofacial Surgeons, 2002 (International Journal of Clinical Oncology, 2008)
 
+![Figure 4.3: Confocal laser endomicroscopy setup](CLE/intro/cle.svg)
+Figure 4.3: Confocal laser endomicroscopy (\gls{CLE}) setup. A laser beam is generated and routed through multiple (partially moving) mirrors towards the tissue. There, incoming light is transformed by fluorescence into a different wavelength, which is then focused onto a photodetector. From: Maier et al., Medical Imaging Systems: An Introductory Guide (p. 79), 2018, CC BY
+
+![Figure 4.4: CLE dynamic range compression: healthy mucosa, 8 bit](CLE/preproc/epithel_compressed.png)
+![Figure 4.4: CLE dynamic range compression: input and compressed output histograms](CLE/preproc/epithel_hist.svg)
+![Figure 4.4: CLE dynamic range compression: SCC, 8 bit](CLE/preproc/carc_compressed.png)
+![Figure 4.4: CLE dynamic range compression: input and compressed output histograms](CLE/preproc/carc_hist.svg)
+Figure 4.4: Image histograms and dynamic range compression results.
+
+
 <object data="theory/PatternRecognition.pdf" type="application/pdf" width="700px" height="700px"> </object>
 ![Figure 1: Pattern recognition pipeline, showcasing the difference between traditional machine learning and deep learning.](theory/PatternRecognition.pdf)
 
